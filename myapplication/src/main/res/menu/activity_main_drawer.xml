@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/hotel"
+            android:icon="@drawable/ic_sleep"
+            android:title="Khách Sạn" />
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/ic_food"
+            android:title="Món Ăn Đặc Trưng" />
+    </group>
+
+
+</menu>
